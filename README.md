@@ -14,7 +14,8 @@
 [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/your-channel)  
 
 ## 📊 GitHub Stats  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ChinmayaPadhi&show_icons=true&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ChinmayaPadhi)
+
 
 ## ⚡ Fun Fact  
 💡 I love working on **real-world industry projects** and collaborating on open-source work!  
