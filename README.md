@@ -5,7 +5,7 @@
 ## 🌱 About Me  
 - 🔭 I’m currently working on VLSI, Machine Learning, and AI.  
 - 🎯 Interests: Data Science, Embedded Systems, and Semiconductor Design.  
-- 📚 Learning new tools like Silvaco TCAD, LTspice, and Logisim.  
+- 📚 Learning new tools like Silvaco TCAD , verilog , LTspice, and Logisim.  
 - ✍️ Passionate about **AI in VLSI** and industry-level research.  
 
 ## 🔗 Connect with Me  
