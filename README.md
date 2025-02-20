@@ -9,7 +9,8 @@
 - ✍️ Passionate about **AI in VLSI** and industry-level research.  
 
 ## 🔗 Connect with Me  
-[![LinkedIn](www.linkedin.com/in/chinmaya-padhi1234)  
+## 🔗 Connect with Me  
+[![LinkedIn](https://img.shields.io/badge/-Chinmaya%20Padhi-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/chinmaya-padhi1234)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/ChinmayaPadhi)  
 [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/your-channel)  
 
