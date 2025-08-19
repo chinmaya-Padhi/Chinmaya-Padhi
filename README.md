@@ -26,3 +26,49 @@
 ## ⚡ Fun Fact  
 💡 I love working on **real-world industry projects** and collaborating on open-source work!  
 
+name: Update languages pie
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'   # every Monday at 00:00 UTC (adjust if wanted)
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests matplotlib
+
+      - name: Generate languages pie
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python .github/scripts/generate_lang_pie.py --user YOUR_GITHUB_USERNAME --out languages_pie.png
+
+      - name: Commit and push image if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add languages_pie.png || true
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update languages_pie.png"
+            git push
+          else
+            echo "No changes to commit"
+          fi
