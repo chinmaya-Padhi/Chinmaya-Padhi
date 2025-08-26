@@ -18,10 +18,6 @@
 ![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=chinmaya-padhi&show_icons=true&theme=radical)
 
 
-## Languages I've used (across my public GitHub repos)
-
-![Languages I've used](./languages_pie.png)
-
 
 ## ⚡ Fun Fact  
 💡 I love working on **real-world industry projects** and collaborating on open-source work!  
